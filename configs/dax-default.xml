@@ -1586,8 +1586,8 @@
       <bass-mbdrc-enable value="true" />
     </data>
   </tuning>
-  <authorized_technologies sku_name="DAX3.15 Android" device="dax3.15_android" bundle="DAP MOBILE v1.68">
-    <global_setting virtual_bass_process="1.05" />
+  <authorized_technologies sku_name="DAX3 Android" device="dax3_android" bundle="DAP MOBILE v1.6">
+    <global_setting virtual_bass_process="1" />
     <global_setting atmos_game_system_gain="0" />
   </authorized_technologies>
 </device_data>
