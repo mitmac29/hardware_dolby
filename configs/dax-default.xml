@@ -5,7 +5,7 @@
   <preset id="1" name="detailed" type="ieq">
     <data>
       <ieq-bands>
-        <band_ieq frequency="47" target="136" />
+        <band_ieq frequency="47" target="128" />
         <band_ieq frequency="141" target="160" />
         <band_ieq frequency="234" target="200" />
         <band_ieq frequency="328" target="228" />
@@ -31,7 +31,7 @@
   <preset id="2" name="balanced" type="ieq">
     <data>
       <ieq-bands>
-        <band_ieq frequency="47" target="143" />
+        <band_ieq frequency="47" target="135" />
         <band_ieq frequency="141" target="185" />
         <band_ieq frequency="234" target="230" />
         <band_ieq frequency="328" target="230" />
@@ -57,7 +57,7 @@
   <preset id="3" name="warm" type="ieq">
     <data>
       <ieq-bands>
-        <band_ieq frequency="47" target="100" />
+        <band_ieq frequency="47" target="92" />
         <band_ieq frequency="141" target="164" />
         <band_ieq frequency="234" target="195" />
         <band_ieq frequency="328" target="181" />
@@ -83,7 +83,7 @@
   <preset id="0" type="geq">
     <data>
       <graphic-equalizer-bands>
-        <band_geq frequency="47" gain="4" />
+        <band_geq frequency="47" gain="2" />
         <band_geq frequency="141" gain="3" />
         <band_geq frequency="234" gain="3" />
         <band_geq frequency="328" gain="0" />
@@ -109,7 +109,7 @@
   <preset id="1" type="geq">
     <data>
       <graphic-equalizer-bands>
-        <band_geq frequency="47" gain="4" />
+        <band_geq frequency="47" gain="2" />
         <band_geq frequency="141" gain="3" />
         <band_geq frequency="234" gain="3" />
         <band_geq frequency="328" gain="0" />
@@ -135,7 +135,7 @@
   <preset id="2" type="geq">
     <data>
       <graphic-equalizer-bands>
-        <band_geq frequency="47" gain="4" />
+        <band_geq frequency="47" gain="2" />
         <band_geq frequency="141" gain="3" />
         <band_geq frequency="234" gain="3" />
         <band_geq frequency="328" gain="0" />
@@ -161,7 +161,7 @@
   <preset id="3" type="geq">
     <data>
       <graphic-equalizer-bands>
-        <band_geq frequency="47" gain="4" />
+        <band_geq frequency="47" gain="2" />
         <band_geq frequency="141" gain="3" />
         <band_geq frequency="234" gain="3" />
         <band_geq frequency="328" gain="0" />
@@ -187,7 +187,7 @@
   <preset id="4" type="geq">
     <data>
       <graphic-equalizer-bands>
-        <band_geq frequency="47" gain="4" />
+        <band_geq frequency="47" gain="2" />
         <band_geq frequency="141" gain="3" />
         <band_geq frequency="234" gain="3" />
         <band_geq frequency="328" gain="0" />
@@ -213,7 +213,7 @@
   <preset id="5" type="geq">
     <data>
       <graphic-equalizer-bands>
-        <band_geq frequency="47" gain="4" />
+        <band_geq frequency="47" gain="2" />
         <band_geq frequency="141" gain="3" />
         <band_geq frequency="234" gain="3" />
         <band_geq frequency="328" gain="0" />
@@ -239,7 +239,7 @@
   <preset id="6" type="geq">
     <data>
       <graphic-equalizer-bands>
-        <band_geq frequency="47" gain="4" />
+        <band_geq frequency="47" gain="2" />
         <band_geq frequency="141" gain="3" />
         <band_geq frequency="234" gain="3" />
         <band_geq frequency="328" gain="0" />
@@ -265,7 +265,7 @@
   <preset id="7" type="geq">
     <data>
       <graphic-equalizer-bands>
-        <band_geq frequency="47" gain="4" />
+        <band_geq frequency="47" gain="2" />
         <band_geq frequency="141" gain="3" />
         <band_geq frequency="234" gain="3" />
         <band_geq frequency="328" gain="0" />
@@ -1098,9 +1098,9 @@
     <device_id id="speaker_landscape" endpoint_port="internal_speaker" />
     <data>
       <audio-optimizer-bands>
-        <band_optimizer frequency="47" gain_left="1514" gain_right="1514" />
-        <band_optimizer frequency="141" gain_left="848" gain_right="880" />
-        <band_optimizer frequency="234" gain_left="860" gain_right="844" />
+        <band_optimizer frequency="47" gain_left="814" gain_right="814" />
+        <band_optimizer frequency="141" gain_left="498" gain_right="530" />
+        <band_optimizer frequency="234" gain_left="510" gain_right="494" />
         <band_optimizer frequency="328" gain_left="160" gain_right="128" />
         <band_optimizer frequency="469" gain_left="124" gain_right="116" />
         <band_optimizer frequency="656" gain_left="92" gain_right="119" />
@@ -1120,30 +1120,30 @@
         <band_optimizer frequency="19688" gain_left="0" gain_right="0" />
       </audio-optimizer-bands>
       <regulator-tuning>
-        <band_regulator frequency="47" threshold_low="-256" threshold_high="-28" isolated_band="true" />
-        <band_regulator frequency="141" threshold_low="-256" threshold_high="-28" isolated_band="true" />
-        <band_regulator frequency="234" threshold_low="-256" threshold_high="-28" isolated_band="true" />
-        <band_regulator frequency="328" threshold_low="-256" threshold_high="-28" isolated_band="true" />
-        <band_regulator frequency="469" threshold_low="-256" threshold_high="-28" isolated_band="true" />
-        <band_regulator frequency="656" threshold_low="-256" threshold_high="-28" isolated_band="true" />
-        <band_regulator frequency="844" threshold_low="-256" threshold_high="-28" isolated_band="true" />
-        <band_regulator frequency="1031" threshold_low="-192" threshold_high="-28" isolated_band="true" />
-        <band_regulator frequency="1313" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="1688" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="2250" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="3000" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="3750" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="4688" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="5813" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="7125" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="9000" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="11250" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="13875" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="19688" threshold_low="-192" threshold_high="-28" isolated_band="false" />
+        <band_regulator frequency="47" threshold_low="-256" threshold_high="-36" isolated_band="true" />
+        <band_regulator frequency="141" threshold_low="-256" threshold_high="-36" isolated_band="true" />
+        <band_regulator frequency="234" threshold_low="-256" threshold_high="-36" isolated_band="true" />
+        <band_regulator frequency="328" threshold_low="-256" threshold_high="-36" isolated_band="true" />
+        <band_regulator frequency="469" threshold_low="-256" threshold_high="-36" isolated_band="true" />
+        <band_regulator frequency="656" threshold_low="-256" threshold_high="-36" isolated_band="true" />
+        <band_regulator frequency="844" threshold_low="-256" threshold_high="-36" isolated_band="true" />
+        <band_regulator frequency="1031" threshold_low="-192" threshold_high="-36" isolated_band="true" />
+        <band_regulator frequency="1313" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="1688" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="2250" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="3000" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="3750" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="4688" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="5813" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="7125" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="9000" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="11250" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="13875" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="19688" threshold_low="-192" threshold_high="-36" isolated_band="false" />
       </regulator-tuning>
       <regulator-sibilance-suppress-amounts-left value="12,10,8,6,4,2" />
       <regulator-sibilance-suppress-amounts-right value="12,10,8,6,4,2" />
-      <bass-enhancer-boost value="4" />
+      <bass-enhancer-boost value="2" />
       <bass-enhancer-cutoff-frequency value="250" />
       <bass-enhancer-width value="20" />
       <bass-extraction-cutoff-frequency value="170" />
@@ -1163,13 +1163,13 @@
         </mix_matrix>
       </output-mode>
       <regulator-overdrive value="0" />
-      <regulator-timbre-preservation value="14" />
+      <regulator-timbre-preservation value="18" />
       <regulator-stress-amount value="56,56,80,80" />
       <regulator-distortion-slope value="10" />
       <bass-mbdrc-tuning value="1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0" />
       <virtual-bass-mode value="3" />
-      <virtual-bass-overall-gain value="4" />
-      <virtual-bass-slope-gain value="2" />
+      <virtual-bass-overall-gain value="2" />
+      <virtual-bass-slope-gain value="1" />
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469" />
       <virtual-bass-src-freqs frequency_low="35" frequency_high="160" />
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192" />
@@ -1197,9 +1197,9 @@
     <device_id id="speaker_landscape_180" endpoint_port="internal_speaker" />
     <data>
       <audio-optimizer-bands>
-        <band_optimizer frequency="47" gain_left="1514" gain_right="1514" />
-        <band_optimizer frequency="141" gain_left="880" gain_right="848" />
-        <band_optimizer frequency="234" gain_left="844" gain_right="860" />
+        <band_optimizer frequency="47" gain_left="814" gain_right="814" />
+        <band_optimizer frequency="141" gain_left="530" gain_right="498" />
+        <band_optimizer frequency="234" gain_left="494" gain_right="510" />
         <band_optimizer frequency="328" gain_left="128" gain_right="160" />
         <band_optimizer frequency="469" gain_left="116" gain_right="124" />
         <band_optimizer frequency="656" gain_left="119" gain_right="92" />
@@ -1219,30 +1219,30 @@
         <band_optimizer frequency="19688" gain_left="0" gain_right="0" />
       </audio-optimizer-bands>
       <regulator-tuning>
-         <band_regulator frequency="47" threshold_low="-256" threshold_high="-28" isolated_band="true" />
-        <band_regulator frequency="141" threshold_low="-256" threshold_high="-28" isolated_band="true" />
-        <band_regulator frequency="234" threshold_low="-256" threshold_high="-28" isolated_band="true" />
-        <band_regulator frequency="328" threshold_low="-256" threshold_high="-28" isolated_band="true" />
-        <band_regulator frequency="469" threshold_low="-256" threshold_high="-28" isolated_band="true" />
-        <band_regulator frequency="656" threshold_low="-256" threshold_high="-28" isolated_band="true" />
-        <band_regulator frequency="844" threshold_low="-256" threshold_high="-28" isolated_band="true" />
-        <band_regulator frequency="1031" threshold_low="-192" threshold_high="-28" isolated_band="true" />
-        <band_regulator frequency="1313" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="1688" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="2250" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="3000" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="3750" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="4688" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="5813" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="7125" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="9000" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="11250" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="13875" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="19688" threshold_low="-192" threshold_high="-28" isolated_band="false" />
+         <band_regulator frequency="47" threshold_low="-256" threshold_high="-36" isolated_band="true" />
+        <band_regulator frequency="141" threshold_low="-256" threshold_high="-36" isolated_band="true" />
+        <band_regulator frequency="234" threshold_low="-256" threshold_high="-36" isolated_band="true" />
+        <band_regulator frequency="328" threshold_low="-256" threshold_high="-36" isolated_band="true" />
+        <band_regulator frequency="469" threshold_low="-256" threshold_high="-36" isolated_band="true" />
+        <band_regulator frequency="656" threshold_low="-256" threshold_high="-36" isolated_band="true" />
+        <band_regulator frequency="844" threshold_low="-256" threshold_high="-36" isolated_band="true" />
+        <band_regulator frequency="1031" threshold_low="-192" threshold_high="-36" isolated_band="true" />
+        <band_regulator frequency="1313" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="1688" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="2250" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="3000" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="3750" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="4688" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="5813" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="7125" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="9000" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="11250" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="13875" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="19688" threshold_low="-192" threshold_high="-36" isolated_band="false" />
       </regulator-tuning>
       <regulator-sibilance-suppress-amounts-left value="12,10,8,6,4,2" />
       <regulator-sibilance-suppress-amounts-right value="12,10,8,6,4,2" />
-      <bass-enhancer-boost value="4" />
+      <bass-enhancer-boost value="2" />
       <bass-enhancer-cutoff-frequency value="250" />
       <bass-enhancer-width value="20" />
       <bass-extraction-cutoff-frequency value="170" />
@@ -1262,13 +1262,13 @@
         </mix_matrix>
       </output-mode>
       <regulator-overdrive value="0" />
-      <regulator-timbre-preservation value="14" />
+      <regulator-timbre-preservation value="18" />
       <regulator-stress-amount value="56,56,80,80" />
       <regulator-distortion-slope value="10" />
       <bass-mbdrc-tuning value="0,-1600,0,-960,-384,-288,0,10,50,192,0,-1600,0,-960,-384,-288,0,5,50,192,0,-1600,0,-960,-384,-192,-96,5,50,96,0,-1600,96,-960,-384,-192,-48,5,50,48,0,-1600,0,-1120,-400,-240,0,5,10,0,0,-1600,0,-1120,-400,-240,0,5,10,0,0,-1600,0,-1120,-400,-240,0,5,10,0,0,-1600,0,-1120,-400,-240,0,5,10,0" />
       <virtual-bass-mode value="3" />
-      <virtual-bass-overall-gain value="4" />
-      <virtual-bass-slope-gain value="2" />
+      <virtual-bass-overall-gain value="2" />
+      <virtual-bass-slope-gain value="1" />
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469" />
       <virtual-bass-src-freqs frequency_low="35" frequency_high="160" />
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192" />
@@ -1296,9 +1296,9 @@
     <device_id id="speaker_portrait" endpoint_port="internal_speaker" />
     <data>
       <audio-optimizer-bands>
-        <band_optimizer frequency="47" gain_left="1400" gain_right="1400" />
-        <band_optimizer frequency="141" gain_left="700" gain_right="700" />
-        <band_optimizer frequency="234" gain_left="700" gain_right="700" />
+        <band_optimizer frequency="47" gain_left="700" gain_right="700" />
+        <band_optimizer frequency="141" gain_left="350" gain_right="350" />
+        <band_optimizer frequency="234" gain_left="350" gain_right="350" />
         <band_optimizer frequency="328" gain_left="0" gain_right="0" />
         <band_optimizer frequency="469" gain_left="4" gain_right="4" />
         <band_optimizer frequency="656" gain_left="4" gain_right="4" />
@@ -1318,30 +1318,30 @@
         <band_optimizer frequency="19688" gain_left="0" gain_right="0" />
       </audio-optimizer-bands>
       <regulator-tuning>
-        <band_regulator frequency="47" threshold_low="-256" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="141" threshold_low="-256" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="234" threshold_low="-256" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="328" threshold_low="-256" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="469" threshold_low="-256" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="656" threshold_low="-256" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="844" threshold_low="-256" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="1031" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="1313" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="1688" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="2250" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="3000" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="3750" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="4688" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="5813" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="7125" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="9000" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="11250" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="13875" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="19688" threshold_low="-192" threshold_high="-28" isolated_band="false" />
+        <band_regulator frequency="47" threshold_low="-256" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="141" threshold_low="-256" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="234" threshold_low="-256" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="328" threshold_low="-256" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="469" threshold_low="-256" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="656" threshold_low="-256" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="844" threshold_low="-256" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="1031" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="1313" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="1688" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="2250" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="3000" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="3750" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="4688" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="5813" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="7125" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="9000" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="11250" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="13875" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="19688" threshold_low="-192" threshold_high="-36" isolated_band="false" />
       </regulator-tuning>
       <regulator-sibilance-suppress-amounts-left value="12,10,8,6,4,2" />
       <regulator-sibilance-suppress-amounts-right value="12,10,8,6,4,2" />
-      <bass-enhancer-boost value="4" />
+      <bass-enhancer-boost value="2" />
       <bass-enhancer-cutoff-frequency value="200" />
       <bass-enhancer-width value="20" />
       <bass-extraction-cutoff-frequency value="170" />
@@ -1361,13 +1361,13 @@
         </mix_matrix>
       </output-mode>
       <regulator-overdrive value="0" />
-      <regulator-timbre-preservation value="14" />
+      <regulator-timbre-preservation value="18" />
       <regulator-stress-amount value="56,56,80,80" />
       <regulator-distortion-slope value="10" />
       <bass-mbdrc-tuning value="1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0" />
       <virtual-bass-mode value="3" />
-      <virtual-bass-overall-gain value="4" />
-      <virtual-bass-slope-gain value="2" />
+      <virtual-bass-overall-gain value="2" />
+      <virtual-bass-slope-gain value="1" />
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469" />
       <virtual-bass-src-freqs frequency_low="35" frequency_high="160" />
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192" />
@@ -1400,9 +1400,9 @@
     <device_id id="headphone" endpoint_port="headphone" />
     <data>
       <audio-optimizer-bands>
-        <band_optimizer frequency="47" gain_left="1400" gain_right="1400" />
-        <band_optimizer frequency="141" gain_left="700" gain_right="700" />
-        <band_optimizer frequency="234" gain_left="700" gain_right="700" />
+        <band_optimizer frequency="47" gain_left="700" gain_right="700" />
+        <band_optimizer frequency="141" gain_left="350" gain_right="350" />
+        <band_optimizer frequency="234" gain_left="350" gain_right="350" />
         <band_optimizer frequency="328" gain_left="0" gain_right="0" />
         <band_optimizer frequency="469" gain_left="4" gain_right="4" />
         <band_optimizer frequency="656" gain_left="4" gain_right="4" />
@@ -1422,30 +1422,30 @@
         <band_optimizer frequency="19688" gain_left="0" gain_right="0" />
       </audio-optimizer-bands>
       <regulator-tuning>
-        <band_regulator frequency="47" threshold_low="-256" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="141" threshold_low="-256" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="234" threshold_low="-256" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="328" threshold_low="-256" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="469" threshold_low="-256" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="656" threshold_low="-256" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="844" threshold_low="-256" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="1031" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="1313" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="1688" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="2250" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="3000" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="3750" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="4688" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="5813" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="7125" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="9000" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="11250" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="13875" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="19688" threshold_low="-192" threshold_high="-28" isolated_band="false" />
+        <band_regulator frequency="47" threshold_low="-256" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="141" threshold_low="-256" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="234" threshold_low="-256" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="328" threshold_low="-256" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="469" threshold_low="-256" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="656" threshold_low="-256" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="844" threshold_low="-256" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="1031" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="1313" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="1688" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="2250" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="3000" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="3750" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="4688" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="5813" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="7125" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="9000" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="11250" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="13875" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="19688" threshold_low="-192" threshold_high="-36" isolated_band="false" />
       </regulator-tuning>
       <regulator-sibilance-suppress-amounts-left value="12,10,8,6,4,2" />
       <regulator-sibilance-suppress-amounts-right value="12,10,8,6,4,2" />
-      <bass-enhancer-boost value="4" />
+      <bass-enhancer-boost value="2" />
       <bass-enhancer-cutoff-frequency value="160" />
       <bass-enhancer-width value="20" />
       <bass-extraction-cutoff-frequency value="170" />
@@ -1459,13 +1459,13 @@
         <mix_matrix />
       </output-mode>
       <regulator-overdrive value="0" />
-      <regulator-timbre-preservation value="14" />
+      <regulator-timbre-preservation value="18" />
       <regulator-stress-amount value="56,56,80,80" />
       <regulator-distortion-slope value="10" />
       <bass-mbdrc-tuning value="1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0" />
       <virtual-bass-mode value="3" />
-      <virtual-bass-overall-gain value="4" />
-      <virtual-bass-slope-gain value="2" />
+      <virtual-bass-overall-gain value="2" />
+      <virtual-bass-slope-gain value="1" />
       <virtual-bass-mix-freqs frequency_low="99" frequency_high="281" />
       <virtual-bass-src-freqs frequency_low="30" frequency_high="90" />
       <virtual-bass-subgains harmonic_2="-48" harmonic_3="-480" harmonic_4="-240" />
@@ -1497,9 +1497,9 @@
     <device_id id="default_miracast" endpoint_port="miracast" />
     <data>
       <audio-optimizer-bands>
-        <band_optimizer frequency="47" gain_left="1400" gain_right="1400" />
-        <band_optimizer frequency="141" gain_left="700" gain_right="700" />
-        <band_optimizer frequency="234" gain_left="700" gain_right="700" />
+        <band_optimizer frequency="47" gain_left="700" gain_right="700" />
+        <band_optimizer frequency="141" gain_left="350" gain_right="350" />
+        <band_optimizer frequency="234" gain_left="350" gain_right="350" />
         <band_optimizer frequency="328" gain_left="0" gain_right="0" />
         <band_optimizer frequency="469" gain_left="4" gain_right="4" />
         <band_optimizer frequency="656" gain_left="4" gain_right="4" />
@@ -1519,30 +1519,30 @@
         <band_optimizer frequency="19688" gain_left="0" gain_right="0" />
       </audio-optimizer-bands>
       <regulator-tuning>
-        <band_regulator frequency="47" threshold_low="-256" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="141" threshold_low="-256" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="234" threshold_low="-256" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="328" threshold_low="-256" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="469" threshold_low="-256" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="656" threshold_low="-256" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="844" threshold_low="-256" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="1031" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="1313" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="1688" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="2250" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="3000" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="3750" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="4688" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="5813" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="7125" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="9000" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="11250" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="13875" threshold_low="-192" threshold_high="-28" isolated_band="false" />
-        <band_regulator frequency="19688" threshold_low="-192" threshold_high="-28" isolated_band="false" />
+        <band_regulator frequency="47" threshold_low="-256" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="141" threshold_low="-256" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="234" threshold_low="-256" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="328" threshold_low="-256" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="469" threshold_low="-256" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="656" threshold_low="-256" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="844" threshold_low="-256" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="1031" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="1313" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="1688" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="2250" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="3000" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="3750" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="4688" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="5813" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="7125" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="9000" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="11250" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="13875" threshold_low="-192" threshold_high="-36" isolated_band="false" />
+        <band_regulator frequency="19688" threshold_low="-192" threshold_high="-36" isolated_band="false" />
       </regulator-tuning>
       <regulator-sibilance-suppress-amounts-left value="12,10,8,6,4,2" />
       <regulator-sibilance-suppress-amounts-right value="12,10,8,6,4,2" />
-      <bass-enhancer-boost value="4" />
+      <bass-enhancer-boost value="2" />
       <bass-enhancer-cutoff-frequency value="200" />
       <bass-enhancer-width value="20" />
       <bass-extraction-cutoff-frequency value="170" />
@@ -1556,13 +1556,13 @@
         <mix_matrix />
       </output-mode>
       <regulator-overdrive value="0" />
-      <regulator-timbre-preservation value="14" />
+      <regulator-timbre-preservation value="18" />
       <regulator-stress-amount value="56,56,80,80" />
       <regulator-distortion-slope value="10" />
       <bass-mbdrc-tuning value="1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0" />
       <virtual-bass-mode value="3" />
-      <virtual-bass-overall-gain value="4" />
-      <virtual-bass-slope-gain value="2" />
+      <virtual-bass-overall-gain value="2" />
+      <virtual-bass-slope-gain value="1" />
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469" />
       <virtual-bass-src-freqs frequency_low="35" frequency_high="160" />
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192" />
