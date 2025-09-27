@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<device_data>
+<?xml version="1.0" encoding="utf-8"?>
+<device_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <format_version major="3" minor="4" maintenance="0" />
   <tool_version major="3" minor="6" maintenance="0" />
   <preset id="1" name="detailed" type="ieq">
