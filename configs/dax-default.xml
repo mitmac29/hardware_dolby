@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<device_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<?xml version='1.0' encoding='utf-8'?>
+<device_data>
   <format_version major="3" minor="4" maintenance="0" />
   <tool_version major="3" minor="6" maintenance="0" />
   <preset id="1" name="detailed" type="ieq">
@@ -309,10 +309,10 @@
         <dialog-enhancer-amount value="4" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -338,10 +338,10 @@
         <dialog-enhancer-amount value="2" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -367,10 +367,10 @@
         <dialog-enhancer-amount value="4" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -410,10 +410,10 @@
         <dialog-enhancer-amount value="4" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -439,10 +439,10 @@
         <dialog-enhancer-amount value="2" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -468,10 +468,10 @@
         <dialog-enhancer-amount value="4" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -511,10 +511,10 @@
         <dialog-enhancer-amount value="6" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -540,10 +540,10 @@
         <dialog-enhancer-amount value="6" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -569,10 +569,10 @@
         <dialog-enhancer-amount value="6" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -611,10 +611,10 @@
         <dialog-enhancer-amount value="6" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -639,10 +639,10 @@
         <dialog-enhancer-amount value="4" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -667,10 +667,10 @@
         <dialog-enhancer-amount value="4" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -710,10 +710,10 @@
         <dialog-enhancer-amount value="0" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -739,10 +739,10 @@
         <dialog-enhancer-amount value="0" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -768,10 +768,10 @@
         <dialog-enhancer-amount value="0" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -811,10 +811,10 @@
         <dialog-enhancer-amount value="4" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -840,10 +840,10 @@
         <dialog-enhancer-amount value="4" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -869,10 +869,10 @@
         <dialog-enhancer-amount value="4" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -912,10 +912,10 @@
         <dialog-enhancer-amount value="8" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -941,10 +941,10 @@
         <dialog-enhancer-amount value="8" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -970,10 +970,10 @@
         <dialog-enhancer-amount value="8" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -1013,10 +1013,10 @@
         <dialog-enhancer-amount value="12" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -1042,10 +1042,10 @@
         <dialog-enhancer-amount value="12" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -1071,10 +1071,10 @@
         <dialog-enhancer-amount value="12" />
         <dialog-enhancer-ducking value="0" />
         <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="220" />
+        <peak-value value="224" />
         <surround-decoder-enable value="true" />
         <surround-boost value="0" />
-        <volmax-boost value="48" />
+        <volmax-boost value="56" />
         <hearing-protection-enable value="false" />
         <hearing-protection-rms-averaging-time-win-len value="6" />
         <hearing-protection-rms-attenuation-target value="-256" />
@@ -1120,9 +1120,9 @@
         <band_optimizer frequency="19688" gain_left="88" gain_right="105" />
       </audio-optimizer-bands>
       <regulator-tuning>
-        <band_regulator frequency="47" threshold_low="-256" threshold_high="-48" isolated_band="true" />
-        <band_regulator frequency="141" threshold_low="-320" threshold_high="-112" isolated_band="true" />
-        <band_regulator frequency="234" threshold_low="-256" threshold_high="-96" isolated_band="true" />
+        <band_regulator frequency="47" threshold_low="-208" threshold_high="-16" isolated_band="true" />
+        <band_regulator frequency="141" threshold_low="-320" threshold_high="-128" isolated_band="true" />
+        <band_regulator frequency="234" threshold_low="-256" threshold_high="-64" isolated_band="true" />
         <band_regulator frequency="328" threshold_low="-240" threshold_high="-48" isolated_band="true" />
         <band_regulator frequency="469" threshold_low="-304" threshold_high="-112" isolated_band="true" />
         <band_regulator frequency="656" threshold_low="-304" threshold_high="-112" isolated_band="true" />
@@ -1219,9 +1219,9 @@
         <band_optimizer frequency="19688" gain_left="105" gain_right="88" />
       </audio-optimizer-bands>
       <regulator-tuning>
-         <band_regulator frequency="47" threshold_low="-256" threshold_high="-48" isolated_band="true" />
-        <band_regulator frequency="141" threshold_low="-320" threshold_high="-112" isolated_band="true" />
-        <band_regulator frequency="234" threshold_low="-256" threshold_high="-96" isolated_band="true" />
+         <band_regulator frequency="47" threshold_low="-208" threshold_high="-16" isolated_band="true" />
+        <band_regulator frequency="141" threshold_low="-320" threshold_high="-128" isolated_band="true" />
+        <band_regulator frequency="234" threshold_low="-256" threshold_high="-64" isolated_band="true" />
         <band_regulator frequency="328" threshold_low="-240" threshold_high="-48" isolated_band="true" />
         <band_regulator frequency="469" threshold_low="-304" threshold_high="-112" isolated_band="true" />
         <band_regulator frequency="656" threshold_low="-304" threshold_high="-112" isolated_band="true" />
@@ -1389,6 +1389,8 @@
       <regulator-speaker-dist-enable value="true" />
       <regulator-sibilance-suppress-enable value="false" />
       <bass-mbdrc-enable value="true" />
+
+
     </data>
   </tuning>
   <tuning name="headphone" endpoint_type="headphone" mono_device="false" tuned_rate="48000" orientation="2" output_channels="2">
@@ -1473,6 +1475,7 @@
       <virtual-bass-blend-linear-gain value="10" />
       <virtual-bass-mix-frequency value="100,1500" />
       <virtual-bass-compressor-tuning value="0,0,-320,96,32,50,50" />
+
       <virtualizer-front-speaker-angle value="10" />
       <virtualizer-height-speaker-angle value="10" />
       <virtualizer-surround-speaker-angle value="10" />
@@ -1485,6 +1488,8 @@
       <regulator-speaker-dist-enable value="false" />
       <regulator-sibilance-suppress-enable value="false" />
       <bass-mbdrc-enable value="false" />
+
+
     </data>
   </tuning>
   <tuning name="unknown" endpoint_type="other" mono_device="false" tuned_rate="48000" orientation="2" output_channels="2">
