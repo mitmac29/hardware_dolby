@@ -31,25 +31,25 @@
   <preset id="2" name="balanced" type="ieq">
     <data>
       <ieq-bands>
-        <band_ieq frequency="47" target="145"/>
-        <band_ieq frequency="141" target="150"/>
-        <band_ieq frequency="234" target="210"/>
-        <band_ieq frequency="328" target="215"/>
+        <band_ieq frequency="47" target="130"/>
+        <band_ieq frequency="141" target="145"/>
+        <band_ieq frequency="234" target="200"/>
+        <band_ieq frequency="328" target="205"/>
         <band_ieq frequency="469" target="203"/>
         <band_ieq frequency="656" target="188"/>
         <band_ieq frequency="844" target="192"/>
-        <band_ieq frequency="1031" target="205"/>
-        <band_ieq frequency="1313" target="220"/>
+        <band_ieq frequency="1031" target="210"/>
+        <band_ieq frequency="1313" target="225"/>
         <band_ieq frequency="1688" target="213"/>
-        <band_ieq frequency="2250" target="230"/>
+        <band_ieq frequency="2250" target="235"/>
         <band_ieq frequency="3000" target="209"/>
         <band_ieq frequency="3750" target="193"/>
         <band_ieq frequency="4688" target="159"/>
         <band_ieq frequency="5813" target="134"/>
         <band_ieq frequency="7125" target="97"/>
-        <band_ieq frequency="9000" target="60"/>
+        <band_ieq frequency="9000" target="65"/>
         <band_ieq frequency="11250" target="18"/>
-        <band_ieq frequency="13875" target="-100"/>
+        <band_ieq frequency="13875" target="-95"/>
         <band_ieq frequency="19688" target="-290"/>
       </ieq-bands>
     </data>
@@ -306,7 +306,7 @@
         <ieq-amount value="4"/>
         <calibration-boost value="0"/>
         <dialog-enhancer-enable value="true"/>
-        <dialog-enhancer-amount value="4"/>
+        <dialog-enhancer-amount value="6"/>
         <dialog-enhancer-ducking value="0"/>
         <mi-virtualizer-binaural-steering-enable value="false"/>
         <peak-value value="240"/>
@@ -335,7 +335,7 @@
         <ieq-amount value="6"/>
         <calibration-boost value="0"/>
         <dialog-enhancer-enable value="true"/>
-        <dialog-enhancer-amount value="2"/>
+        <dialog-enhancer-amount value="4"/>
         <dialog-enhancer-ducking value="0"/>
         <mi-virtualizer-binaural-steering-enable value="false"/>
         <peak-value value="240"/>
@@ -364,7 +364,7 @@
         <ieq-amount value="6"/>
         <calibration-boost value="0"/>
         <dialog-enhancer-enable value="true"/>
-        <dialog-enhancer-amount value="4"/>
+        <dialog-enhancer-amount value="6"/>
         <dialog-enhancer-ducking value="0"/>
         <mi-virtualizer-binaural-steering-enable value="false"/>
         <peak-value value="240"/>
@@ -407,7 +407,7 @@
         <ieq-amount value="6"/>
         <calibration-boost value="0"/>
         <dialog-enhancer-enable value="true"/>
-        <dialog-enhancer-amount value="4"/>
+        <dialog-enhancer-amount value="6"/>
         <dialog-enhancer-ducking value="0"/>
         <mi-virtualizer-binaural-steering-enable value="false"/>
         <peak-value value="240"/>
@@ -436,7 +436,7 @@
         <ieq-amount value="6"/>
         <calibration-boost value="0"/>
         <dialog-enhancer-enable value="true"/>
-        <dialog-enhancer-amount value="2"/>
+        <dialog-enhancer-amount value="4"/>
         <dialog-enhancer-ducking value="0"/>
         <mi-virtualizer-binaural-steering-enable value="false"/>
         <peak-value value="240"/>
@@ -465,7 +465,7 @@
         <ieq-amount value="6"/>
         <calibration-boost value="0"/>
         <dialog-enhancer-enable value="true"/>
-        <dialog-enhancer-amount value="4"/>
+        <dialog-enhancer-amount value="6"/>
         <dialog-enhancer-ducking value="0"/>
         <mi-virtualizer-binaural-steering-enable value="false"/>
         <peak-value value="240"/>
@@ -636,7 +636,7 @@
         <ieq-amount value="6"/>
         <calibration-boost value="0"/>
         <dialog-enhancer-enable value="false"/>
-        <dialog-enhancer-amount value="4"/>
+        <dialog-enhancer-amount value="6"/>
         <dialog-enhancer-ducking value="0"/>
         <mi-virtualizer-binaural-steering-enable value="false"/>
         <peak-value value="240"/>
@@ -664,7 +664,7 @@
         <ieq-amount value="6"/>
         <calibration-boost value="0"/>
         <dialog-enhancer-enable value="false"/>
-        <dialog-enhancer-amount value="4"/>
+        <dialog-enhancer-amount value="6"/>
         <dialog-enhancer-ducking value="0"/>
         <mi-virtualizer-binaural-steering-enable value="false"/>
         <peak-value value="240"/>
@@ -1165,7 +1165,7 @@
       <regulator-overdrive value="0"/>
       <regulator-timbre-preservation value="12"/>
       <regulator-stress-amount value="64,64,96,96"/>
-      <regulator-distortion-slope value="6"/>
+      <regulator-distortion-slope value="5"/>
       <bass-mbdrc-tuning value="1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0"/>
       <virtual-bass-mode value="3"/>
       <virtual-bass-overall-gain value="0"/>
@@ -1264,7 +1264,7 @@
       <regulator-overdrive value="0"/>
       <regulator-timbre-preservation value="12"/>
       <regulator-stress-amount value="64,64,96,96"/>
-      <regulator-distortion-slope value="6"/>
+      <regulator-distortion-slope value="5"/>
       <bass-mbdrc-tuning value="0,-1600,0,-960,-384,-288,0,10,50,192,0,-1600,0,-960,-384,-288,0,5,50,192,0,-1600,0,-960,-384,-192,-96,5,50,96,0,-1600,96,-960,-384,-192,-48,5,50,48,0,-1600,0,-1120,-400,-240,0,5,10,0,0,-1600,0,-1120,-400,-240,0,5,10,0,0,-1600,0,-1120,-400,-240,0,5,10,0,0,-1600,0,-1120,-400,-240,0,5,10,0"/>
       <virtual-bass-mode value="3"/>
       <virtual-bass-overall-gain value="0"/>
